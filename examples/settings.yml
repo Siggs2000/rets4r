@@ -56,9 +56,9 @@
 #    Style: :style
 
 common: &COMMON
-  url: http://www.dis.com:6103/rets/login
-  username: Joe
-  password: Schmoe
+  url: http://ctarmls.retsiq.com/rets/login
+  username: Robot-IDX
+  password: jiUd45K
   version: 1.5
   resource: Property
   class: RES

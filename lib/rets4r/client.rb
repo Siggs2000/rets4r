@@ -25,15 +25,12 @@ require 'rets4r/client/parsers/response_parser'
 require 'rets4r/client/requester'
 require 'rets4r/client/metadata_request'
 
-require 'rest-client' #added by seth
-RestClient.proxy = ENV["PROXIMO_URL"] if ENV["PROXIMO_URL"] #added by seth
-
 
 module RETS4R
   class Client
     COMPACT_FORMAT = 'COMPACT'
 
-    METHOD_GET  = 'RestClient.GET' #modified by seth
+    METHOD_GET  = 'GET' #modified by seth
     METHOD_POST = 'POST'
     METHOD_HEAD = 'HEAD'
 
